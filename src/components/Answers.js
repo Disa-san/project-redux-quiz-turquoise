@@ -1,7 +1,7 @@
 import React from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { quiz } from 'reducers/quiz'
-import 'components/answers.css'
+import 'components/Answers.css'
 
 export const Answers = ({ question }) => {
   const dispatch = useDispatch()
